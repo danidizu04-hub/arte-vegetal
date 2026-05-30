@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#3D2B1A"/>
+  <rect x="16" y="22" width="32" height="30" rx="5" fill="#FAF6F0" stroke="#C49A3C" stroke-width="1.5"/>
+  <rect x="14" y="16" width="36" height="8" rx="4" fill="#C49A3C"/>
+  <rect x="17" y="38" width="30" height="13" rx="0 0 4 4" fill="#3D2B1A" opacity="0.9"/>
+  <path d="M17 38 Q32 30 47 38" stroke="#8B6F47" stroke-width="2" fill="none"/>
+  <!-- Chocolate swirl -->
+  <circle cx="32" cy="34" r="5" fill="#3D2B1A" opacity="0.6"/>
+  <circle cx="32" cy="34" r="2" fill="#C49A3C" opacity="0.8"/>
+</svg>

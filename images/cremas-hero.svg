@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EDE5D8"/>
+      <stop offset="100%" stop-color="#D4C4A8"/>
+    </linearGradient>
+    <radialGradient id="glowCremas" cx="50%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#C49A3C" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#8B6F47" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="700" fill="url(#cardBg)"/>
+  <rect width="600" height="700" fill="url(#glowCremas)"/>
+
+  <!-- Main jar - large center -->
+  <g transform="translate(200, 180)">
+    <!-- Jar body -->
+    <rect x="20" y="60" width="160" height="200" rx="16" fill="#FAF6F0" stroke="#C49A3C" stroke-width="2"/>
+    <!-- Jar lid -->
+    <rect x="10" y="40" width="180" height="30" rx="8" fill="#8B6F47"/>
+    <!-- Content fill (nut butter) -->
+    <rect x="22" y="140" width="156" height="118" rx="0 0 14 14" fill="#C49A3C" opacity="0.7"/>
+    <!-- Wavy top of content -->
+    <path d="M22 140 Q80 120 100 140 Q130 160 158 140 L158 145 Q130 165 100 145 Q80 125 22 145Z" fill="#D4A85A" opacity="0.8"/>
+    <!-- Label -->
+    <rect x="30" y="170" width="140" height="80" rx="8" fill="white" opacity="0.9"/>
+    <text x="100" y="205" text-anchor="middle" font-family="serif" font-size="13" fill="#1C1C1A" font-weight="600">ARTE</text>
+    <text x="100" y="222" text-anchor="middle" font-family="serif" font-size="13" fill="#1C1C1A" font-weight="600">VEGETAL</text>
+    <text x="100" y="240" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#8B6F47">Crema de Maní</text>
+  </g>
+
+  <!-- Secondary jar left -->
+  <g transform="translate(60, 240)">
+    <rect x="10" y="50" width="110" height="150" rx="12" fill="#FAF6F0" stroke="#3D5A38" stroke-width="1.5"/>
+    <rect x="5" y="34" width="120" height="22" rx="6" fill="#3D5A38"/>
+    <rect x="12" y="130" width="106" height="68" rx="0 0 10 10" fill="#8B6F47" opacity="0.5"/>
+    <rect x="16" y="150" width="88" height="40" rx="5" fill="white" opacity="0.85"/>
+    <text x="60" y="170" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#1C1C1A" font-weight="600">Crema de</text>
+    <text x="60" y="182" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8B6F47">Almendras</text>
+  </g>
+
+  <!-- Secondary jar right -->
+  <g transform="translate(420, 220)">
+    <rect x="10" y="50" width="110" height="150" rx="12" fill="#FAF6F0" stroke="#C49A3C" stroke-width="1.5"/>
+    <rect x="5" y="34" width="120" height="22" rx="6" fill="#C49A3C"/>
+    <rect x="12" y="130" width="106" height="68" rx="0 0 10 10" fill="#C49A3C" opacity="0.5"/>
+    <rect x="16" y="150" width="88" height="40" rx="5" fill="white" opacity="0.85"/>
+    <text x="60" y="170" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#1C1C1A" font-weight="600">Crema de</text>
+    <text x="60" y="182" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8B6F47">Avellanas</text>
+  </g>
+
+  <!-- Scattered nuts -->
+  <ellipse cx="140" cy="480" rx="18" ry="12" fill="#C49A3C" opacity="0.6" transform="rotate(-20 140 480)"/>
+  <ellipse cx="460" cy="500" rx="15" ry="10" fill="#8B6F47" opacity="0.5" transform="rotate(15 460 500)"/>
+  <circle cx="100" cy="550" r="8" fill="#C49A3C" opacity="0.4"/>
+  <circle cx="500" cy="560" r="10" fill="#8B6F47" opacity="0.4"/>
+  <ellipse cx="300" cy="600" rx="20" ry="13" fill="#C49A3C" opacity="0.3" transform="rotate(10 300 600)"/>
+
+  <!-- Brand tagline -->
+  <text x="300" y="660" text-anchor="middle" font-family="serif" font-size="16" fill="#8B6F47" opacity="0.7">Sin aditivos · 100% natural</text>
+</svg>

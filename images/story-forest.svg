@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C4D9B8"/>
+      <stop offset="100%" stop-color="#8BAF7A"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5A8C4A"/>
+      <stop offset="100%" stop-color="#3D5A38"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#skyGrad)"/>
+
+  <!-- Mountains / hills in background -->
+  <ellipse cx="200" cy="420" rx="280" ry="180" fill="#4A7A3A" opacity="0.6"/>
+  <ellipse cx="600" cy="430" rx="260" ry="170" fill="#3D6830" opacity="0.7"/>
+  <ellipse cx="400" cy="380" rx="320" ry="200" fill="#3D5A38" opacity="0.5"/>
+
+  <!-- Ground -->
+  <rect x="0" y="440" width="800" height="160" fill="url(#groundGrad)"/>
+  <ellipse cx="400" cy="440" rx="450" ry="40" fill="#5A8C4A"/>
+
+  <!-- Native trees - various shapes -->
+  <!-- Tree 1 - tall pine-like -->
+  <rect x="98" y="260" width="14" height="180" rx="3" fill="#5A3A1A"/>
+  <polygon points="105,80 60,260 150,260" fill="#2C4228"/>
+  <polygon points="105,140 68,270 142,270" fill="#3D5A38"/>
+
+  <!-- Tree 2 - rounded canopy -->
+  <rect x="198" y="300" width="12" height="140" rx="3" fill="#5A3A1A"/>
+  <circle cx="204" cy="250" r="70" fill="#3D6830"/>
+  <circle cx="185" cy="270" r="50" fill="#4A7A3A"/>
+  <circle cx="220" cy="265" r="55" fill="#3D5A38"/>
+
+  <!-- Tree 3 - tall -->
+  <rect x="328" y="250" width="16" height="190" rx="3" fill="#5A3A1A"/>
+  <ellipse cx="336" cy="200" rx="60" ry="80" fill="#2C4228"/>
+  <ellipse cx="336" cy="230" rx="70" ry="60" fill="#3D5A38"/>
+
+  <!-- Tree 4 -->
+  <rect x="448" y="280" width="13" height="160" rx="3" fill="#5A3A1A"/>
+  <circle cx="454" cy="240" r="65" fill="#4A7A3A"/>
+  <circle cx="440" cy="260" r="45" fill="#3D6830"/>
+
+  <!-- Tree 5 - right -->
+  <rect x="598" y="255" width="15" height="185" rx="3" fill="#5A3A1A"/>
+  <polygon points="605,75 558,255 652,255" fill="#2C4228"/>
+  <polygon points="605,135 565,265 645,265" fill="#3D5A38"/>
+
+  <!-- Tree 6 - smaller foreground -->
+  <rect x="698" y="320" width="11" height="120" rx="3" fill="#5A3A1A"/>
+  <circle cx="703" cy="285" r="48" fill="#3D6830"/>
+
+  <!-- Foreground grass / plants -->
+  <ellipse cx="150" cy="480" rx="60" ry="20" fill="#4A7A3A"/>
+  <ellipse cx="400" cy="500" rx="80" ry="18" fill="#5A8C4A"/>
+  <ellipse cx="650" cy="475" rx="65" ry="20" fill="#4A7A3A"/>
+
+  <!-- Sunlight rays -->
+  <radialGradient id="sunRays" cx="70%" cy="20%" r="40%">
+    <stop offset="0%" stop-color="#F8E8A0" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#F8E8A0" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="800" height="600" fill="url(#sunRays)"/>
+
+  <!-- Birds (V shapes) -->
+  <path d="M580 120 Q590 112 600 120" stroke="#2C4228" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M615 100 Q625 92 635 100" stroke="#2C4228" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M560 140 Q567 134 574 140" stroke="#2C4228" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- Bee (simple) -->
+  <ellipse cx="320" cy="180" rx="8" ry="5" fill="#C49A3C" opacity="0.8"/>
+  <path d="M316 178 L313 172" stroke="#1C1C1A" stroke-width="1" opacity="0.6"/>
+  <path d="M324 178 L327 172" stroke="#1C1C1A" stroke-width="1" opacity="0.6"/>
+
+  <!-- Caption overlay -->
+  <rect x="0" y="520" width="800" height="80" fill="#2C2416" opacity="0.6"/>
+  <text x="400" y="558" text-anchor="middle" font-family="serif" font-size="20" fill="white" opacity="0.95">Reserva Forestal · Neira, Caldas</text>
+  <text x="400" y="580" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#C49A3C" opacity="0.9">3.000+ árboles nativos sembrados</text>
+</svg>

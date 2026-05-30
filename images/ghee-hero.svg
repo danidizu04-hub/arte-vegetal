@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="gheeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6F0"/>
+      <stop offset="100%" stop-color="#EDE5D8"/>
+    </linearGradient>
+    <radialGradient id="gheeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C49A3C" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#C49A3C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="400" fill="url(#gheeBg)"/>
+  <rect width="500" height="400" fill="url(#gheeGlow)"/>
+
+  <!-- Wide-mouth glass jar -->
+  <g transform="translate(125, 60)">
+    <!-- Jar shadow -->
+    <ellipse cx="125" cy="308" rx="95" ry="12" fill="#8B6F47" opacity="0.15"/>
+    <!-- Jar body -->
+    <rect x="30" y="70" width="190" height="230" rx="20" fill="#FAF6F0" opacity="0.95" stroke="#C49A3C" stroke-width="1.5"/>
+    <!-- Ghee content (golden) -->
+    <rect x="32" y="160" width="186" height="138" rx="0 0 18 18" fill="#D4A85A" opacity="0.85"/>
+    <!-- Ghee surface with texture -->
+    <path d="M32 160 Q80 148 125 160 Q170 172 218 160 L218 168 Q170 180 125 168 Q80 156 32 168Z" fill="#C49A3C" opacity="0.9"/>
+    <!-- Jar lid (flat) -->
+    <rect x="20" y="45" width="210" height="32" rx="10" fill="#8B6F47"/>
+    <!-- Lid highlight -->
+    <rect x="30" y="50" width="190" height="10" rx="5" fill="#C49A3C" opacity="0.4"/>
+    <!-- Label -->
+    <rect x="45" y="180" width="160" height="90" rx="10" fill="white" opacity="0.95"/>
+    <text x="125" y="210" text-anchor="middle" font-family="serif" font-size="15" fill="#1C1C1A" font-weight="700">ARTE VEGETAL</text>
+    <text x="125" y="230" text-anchor="middle" font-family="serif" font-size="20" fill="#8B6F47" font-style="italic">Ghee</text>
+    <text x="125" y="252" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#8B6F47">Mantequilla Clarificada</text>
+    <!-- Label decorative line -->
+    <line x1="55" y1="220" x2="195" y2="220" stroke="#C49A3C" stroke-width="0.5" opacity="0.5"/>
+  </g>
+
+  <!-- Spilled ghee drop -->
+  <ellipse cx="380" cy="280" rx="30" ry="10" fill="#D4A85A" opacity="0.4" transform="rotate(-10 380 280)"/>
+
+  <!-- Text -->
+  <text x="250" y="370" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#8B6F47" opacity="0.7">Sin lactosa · Sin refrigeración · 400 g</text>
+</svg>

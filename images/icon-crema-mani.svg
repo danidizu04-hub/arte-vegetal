@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#EDE5D8"/>
+  <!-- Jar -->
+  <rect x="16" y="22" width="32" height="30" rx="5" fill="#FAF6F0" stroke="#C49A3C" stroke-width="1.5"/>
+  <rect x="14" y="16" width="36" height="8" rx="4" fill="#8B6F47"/>
+  <!-- Content -->
+  <rect x="17" y="38" width="30" height="13" rx="0 0 4 4" fill="#C49A3C" opacity="0.8"/>
+  <path d="M17 38 Q32 32 47 38" stroke="#D4A85A" stroke-width="2" fill="none"/>
+</svg>
